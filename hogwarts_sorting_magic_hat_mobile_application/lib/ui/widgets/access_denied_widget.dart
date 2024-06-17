@@ -35,12 +35,14 @@ class AccessDeniedWidget extends StatelessWidget {
                 ),
               ),
         const SizedBox(width: 8),
-        const Text(
-          'ACCESS DENIED',
-          style: TextStyle(
-            color: Colors.red,
-            fontSize: 24,
-            fontWeight: FontWeight.bold,
+        const Expanded(
+          child: const Text(
+            'ACCESS DENIED',
+            style: TextStyle(
+              color: Colors.red,
+              fontSize: 24,
+              fontWeight: FontWeight.bold,
+            ),
           ),
         ),
       ],
